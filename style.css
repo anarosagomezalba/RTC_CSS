@@ -1,0 +1,51 @@
+
+.padre {
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(60, 57, 57, 0.395);
+  
+
+}
+    
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.AnaRosa {
+    color: black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    width: 300px;
+    height: 150px;
+    text-align: right ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    
+    
+
+}
+div .AnaRosa:hover{
+transition: 2s;
+transform: scale(1.1);
+}
+.section_AnaRosa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+
+}
+.section_AnaRosa > article {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+
